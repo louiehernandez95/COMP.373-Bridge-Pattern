@@ -4,7 +4,9 @@
 Definition: You can use a bridge to 'decouple an abstraction from its
 implementation so that the two can vary independently'.
 The Bridge Pattern can be used to provide multiple implementations
-under the same interface.
+under the same interface. It was introduced by the Gang Of Four (GoF)
+The bridge pattern uses encapsulation, aggregation, and can use inheritance
+to separate responsibilities into different classes. 
 
 Example of a Bridge Pattern: In a bridge design pattern there are
 2 layers; the abstraction layer and implementation layer. If you make
