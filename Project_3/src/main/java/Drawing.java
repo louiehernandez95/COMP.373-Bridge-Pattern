@@ -1,8 +1,8 @@
 
 public interface Drawing {
 	
-	void drawRectangle(double x1,double y1,double x2, double y2);
+	void drawRectangle(double x_intercept1,double y_intercept1,double x_intercept2, double y_intercept2);
 	
-	void drawCircle(double x,double y,double r);
+	void drawCircle(double x_intercept,double y_intercept,double radius);
 
 }
