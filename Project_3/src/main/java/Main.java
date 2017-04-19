@@ -7,9 +7,9 @@ public class Main
         Shape shape1,shape2;
         Drawing drawing;
 
-        drawing=new Drawing1();
+        drawing=new Time_2_Draw();
         shape1=new Rectangle(drawing,1,1,2,2);
-        drawing=new Drawing1();
+        drawing=new Time_2_Draw();
         shape2=new Circle(drawing,2,2,3);
 
         shape1.draw();
