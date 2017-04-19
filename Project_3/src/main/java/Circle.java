@@ -5,12 +5,12 @@ public class Circle extends Shape
 {
     private double x,y,r;
 
-    public Circle(Drawing d,double x1,double y1,double r1)
+    public Circle(Drawing d,double x_intercept1,double y_intercept1,double radius1)
     {
         super(d);
-        x=x1;
-        y=y1;
-        r=r1;
+        x=x_intercept1;
+        y=y_intercept1;
+        r=radius1;
     }
 
     public void draw()

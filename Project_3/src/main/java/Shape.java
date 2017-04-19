@@ -3,23 +3,23 @@
  */
 public abstract class Shape
 {
-    protected Drawing d;
+    protected Drawing drawing;
 
     public abstract void draw();
 
     public Shape(Drawing dr)
     {
-        d = dr;
+        drawing = dr;
     }
 
-    protected void drawLine(double x1,double y1,double x2,double y2)
+    protected void drawRectangle(double x1,double y1,double x2,double y2)
     {
-        d.drawLine(x1,y1,x2,y2);
+        drawing.drawRectangle(x1,y1,x2,y2);
     }
 
-    protected void drawCircle(double x,double y,double r)
+    protected void drawCircle(double x,double y,double radius)
     {
-        d.drawCircle(x,y,r);
+        drawing.drawCircle(x,y,radius);
     }
 
 }
