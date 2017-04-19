@@ -1,15 +1,20 @@
 /**
  * Created by louie on 4/17/2017.
  */
-public class Circle extends Shape {
-    int radius;
-    Circle(int radius,DrawAPI draw){
-        super(draw);
-        this.radius=radius;
+public class Circle extends Shape
+{
+    private double x,y,r;
+
+    public Circle(Drawing d,double x1,double y1,double r1)
+    {
+        super(d);
+        x=x1;
+        y=y1;
+        r=r1;
     }
 
-    @Override
-    public void draw() {
-        draw.drawShape(radius);
+    public void draw()
+    {
+        drawCircle(x,y,r);
     }
 }
